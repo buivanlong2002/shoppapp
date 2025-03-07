@@ -1,4 +1,4 @@
-FROM openjdk:17-jdk-slim
+FROM openjdk:22-jdk-slim
 WORKDIR /app/long
 COPY target/*.jar app.jar
 EXPOSE 8080
